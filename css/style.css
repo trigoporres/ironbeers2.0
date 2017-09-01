@@ -1,0 +1,134 @@
+#bar{
+  height: 450px;
+  width: 450px;
+  background-color: #c4c5d0;
+  border-radius: 20px;
+}
+
+#init{
+  float: right;
+}
+
+#barra{
+  height: 100%;
+  width: 16.6666%;
+  background-color: #d7a91d;
+  float: right;
+  border-radius: 20px 0 0 20px;
+}
+
+.beer{
+  height: 75px;
+  width: 75px;
+  background-image: url('../img/miguel.png');
+  background-size: cover;
+  z-index: 100000000;
+  border-radius: 50%;
+}
+
+.beer img{
+  width: 72px;
+}
+
+#beer0{
+  position: absolute;
+  top: 75px;
+  left: 375px;
+  visibility: visible;
+}
+
+#beer1{
+  position: absolute;
+  top: 225px;
+  left: 375px;
+  visibility: visible;
+}
+
+#beer2{
+  position: absolute;
+  top: 375px;
+  left: 375px;
+  visibility: visible;
+}
+
+#barman{
+  height: 75px;
+  width: 75px;
+  background-color: #8294f2;
+  float: right;
+  /*margin-right: 10px;*/
+  position: absolute;
+  top: 0;
+  left: 300px;
+  background-image: url('../img/marc.png');
+  background-size: cover;
+}
+
+
+
+.table{
+  height: 75px;
+  width: 300px;
+  background-color: red;
+  border-radius: 20px;
+  z-index: 100000;
+  background-image: url('../img/brain_3-wallpaper-1366x768.jpg');
+  background-size: cover;
+}
+
+#table1{
+  position: absolute;
+  top: 75px;
+}
+
+#table2{
+  position: absolute;
+  top: 225px;
+}
+
+#table3{
+  position: absolute;
+  top: 375px;
+}
+
+.client{
+  height: 80px;
+  width: 75px;
+  float: left;
+  position: absolute;
+  border-radius: 20px;
+  border: 1px solid green;
+  background-image: url('../img/andrei.png');
+  background-size: cover;
+}
+
+.uno, .dos, .tres, .cuatro{
+  top: 0;
+  visibility: hidden;
+}
+
+.cinco, .seis, .siete, .ocho{
+  top: 150px;
+  visibility: hidden;
+}
+
+.nueve, .diez, .once, .doce{
+  top: 300px;
+  visibility: hidden;
+}
+
+.dos, .seis, .diez{
+  left: 75px;
+}
+
+.tres, .siete, .once{
+  left: 150px;
+}
+
+.cuatro, .ocho, .doce{
+  left: 225px;
+}
+
+.visi{
+  visibility: visible;
+}
